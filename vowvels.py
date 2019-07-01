@@ -1,9 +1,9 @@
-str = input("Input a letter of the alphabet: ")
- 
-if str in ('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U', 'A', 'E'):
+str = input("")
+if str in ('A', 'E', 'I', 'O', 'U','a','e','i','o'):
 	print("%s is a vowel." % str)
 elif str == 'y':
 	print("vowel")
 else:
 	print("%s is a consonant." % str) 
+ 
  
